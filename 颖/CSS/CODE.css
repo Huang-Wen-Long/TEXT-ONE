@@ -1,0 +1,23 @@
+
+body{
+    background-image: url("../tool/image/minghu.jpg");
+    background-attachment: fixed;
+    padding: 100px;
+}
+.return{
+    position: fixed;
+    left: 35px;
+    top: 50px;
+}
+.list{
+    background-color: rgba(0,0,255,0.6);
+    color: #FF0000;
+    width: 50px;
+}
+.name{
+    background-color: rgba(255,0,0,0.6);
+    color: #0000FF;
+}
+.away{
+    background-color: #00beff;
+}

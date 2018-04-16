@@ -1,0 +1,47 @@
+body{
+    /*margin-right:100px;*/
+    padding-top:100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-attachment: fixed;
+    background: url("../tool/image/minghu.jpg") no-repeat center center fixed ;
+}
+.tit1{
+    background-color: rgba(0,0,255,0.5);
+    color: rgb(255,0,255);
+    font-size: 50px;
+    width: 300px;
+}
+.txt_hwl_a{
+    font-size: 1px;
+    text-align: center;
+    white-space: pre;
+    line-height: 10px;
+    background-color: rgba(128, 47, 36, 0.8);
+}
+/*==========MPEG==========*/
+.video_center{
+    align-items: center;
+    height: 375px;
+    width: 500px;
+}
+.audio_top{
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    left: 20px;
+}
+
+/*==========TEXT==========*/
+
+.text_table_head{
+    font-size: 30px;
+    font-family: 方正舒体;
+    background-color: rgba(36,32,128,0.8);
+}
+.text_table_word{
+    font-size: 20px;
+    font-family: 方正姚体;
+    background-color: rgba(118, 255, 137, 0.8);
+}

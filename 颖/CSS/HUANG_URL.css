@@ -1,0 +1,14 @@
+body{
+    padding: 100px;
+    background-image: url(../tool/image/huanggua.png);
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+.audio_top{
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    left: 20px;
+}
+

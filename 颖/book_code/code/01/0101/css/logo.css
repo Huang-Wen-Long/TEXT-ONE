@@ -1,0 +1,169 @@
+/*��1��Ԫ ��Ŀ1-1  ʹ��HTML5+CSS3����HTML5��logo*/
+body{
+    margin:0;   /*����body����߾�Ϊ0*/
+    padding:0;  /*����body���ڱ߾�Ϊ0*/
+
+}
+div{
+    position:absolute;/*�����е�div���þ��Զ�λ*/
+}
+/*������Ϊbg��Ԫ�����ÿ��ߡ�������ɫ*/
+.bg{
+
+    width:800px;
+    height:600px;
+    background:#f2f2f2;
+    overflow:hidden;/*�����������*/
+}
+/*������Ϊbeam��Ԫ�����ÿ��ߡ�������ɫ���Լ����Զ�λ*/
+.beam{
+    width:1600px;/*���Ϊ1600����*/
+    height:20px;/*�߶�Ϊ20����*/
+    background:#fff;/*����Ϊ��ɫ*/
+    top:290px;/*���Զ�λ���ุԪ���ϱ���290����*/
+    left:-400px;/*���Զ�λ���ุԪ�������-400����*/
+}
+.d_shield1,.d_shield2,.d_shield3,.d_shield4,.d_shield5,.d_shield6,.d_shield7{
+    background:#e15016;
+}
+/*������Ϊd_shield1��Ԫ�����ÿ����Լ����Զ�λ*/
+.d_shield1{
+    left:32px;/*���Զ�λ���ุԪ�������32����*/
+    width:140px;
+    height:346px;
+}
+.d_shield2{
+    transform:skewx(5deg);/*���Σ�CSS3�������ԣ���ˮƽ����б��5��*/
+    left:16px;/*���Զ�λ���ุԪ�������16����*/
+    width:100px;
+    height:346px;
+}
+.d_shield3{
+    transform:skewy(15deg);/*���Σ���ֱ����б��15��*/
+    top:265px;/*���Զ�λ���ุԪ���ϱ���265����*/
+    left:32px;/*���Զ�λ���ุԪ�������32����*/
+    width:140px;
+    height:100px;
+}
+.d_shield4{
+    left:172px;
+    width:140px;
+    height:346px;
+}
+.d_shield5{
+    transform:skewx(-5deg);
+    left:227px;
+    width:100px;
+    height:346px;
+}
+.d_shield6{
+    transform:skewy(-15deg);
+    top:265px;
+    left:172px;
+    width:140px;
+    height:100px;
+}
+.d_shield7{
+    height:20px;
+    top:199px;
+    width:80px;
+    left:60px;
+}
+.l_shield1,.l_shield2,.l_shield3,.l_shield4{
+    background:#ee6812;
+}
+.l_shield1{
+    left:172px;
+    width:140px;
+    height:346px;
+}
+.l_shield2{
+    transform:skewx(-5deg);
+    left:227px;
+    width:100px;
+    height:363px;
+}
+.l_shield3{
+    transform:skewy(-15deg);
+    top:282px;
+    left:172px;
+    width:138px;
+    height:100px;
+}
+.l_shield4{
+    height:43px;
+    top:113px;
+    width:100px;
+    left:180px;
+}
+.gray1,.gray2,.gray3,.gray4{
+    background:#ebebeb;
+}
+/*������Ϊgray1��Ԫ�����ÿ����Լ����Զ�λ*/
+.gray1{
+    height:43px;
+    width:102px;
+    left:70px;
+    top:70px;
+}
+/*������Ϊgray2��Ԫ�����ÿ��ߡ�б�б����Լ����Զ�λ*/
+.gray2{
+    width:46px;
+    height:216px;
+    transform:skewx(5deg);
+    top:70px;
+    left:75px;
+}
+.gray3{
+    width:95px;
+    height:43px;
+    left:77px;
+    top:156px;
+}
+.gray4{
+    width:87px;
+    height:47px;
+    left:85px;
+    top:251px;
+    transform:skewy(15deg);
+}
+/*������Ϊwhite1��white2��white3��white4���ĸ�Ԫ�ض����ñ�����ɫΪ��ɫ*/
+.white1,.white2,.white3,.white4{
+    background:#fff;
+}
+/*������Ϊwhite1��Ԫ�����ÿ����Լ����Զ�λ*/
+.white1{
+    width:102px;
+    height:43px;
+    left:172px;
+    top:70px;
+}
+/*������Ϊwhite2��Ԫ�����ÿ��ߡ�б�б����Լ����Զ�λ*/
+.white2{
+    width:46px;
+    height:216px;
+    transform:skewx(-5deg);
+    top:70px;
+    left:223px;
+}
+.white3{
+    height:43px;
+    width:95px;
+    left:172px;
+    top:156px;
+}
+.white4{
+    height:47px;
+    width:87px;
+    left:172px;
+    top:251px;
+    transform:skewy(-15deg);
+}
+/*��img��ǩ���ÿ����Լ��̶���λ*/
+img {
+    position: fixed;/*�̶���λ*/
+    top: 8px;
+    left: 225px;
+    width: 350px;
+    height: 110px;
+}

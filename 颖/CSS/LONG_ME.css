@@ -1,0 +1,20 @@
+body{
+    /*margin-right:100px;*/
+    padding-top:100px;
+    padding-left: 100px;
+    background-attachment: fixed;
+    background-image: url("../tool/image/寻梦环游记.png");
+    background-size:  100% 100%;
+}
+.txt_txt1{
+    font-size: 40px;
+    font-family: 华文行楷;
+    font-style: italic;
+    background-color: red;
+    color: rgb(0,0,255);
+}
+.float_right_from_img{
+    position: absolute;
+    left: 220px;
+    top: 177px;
+}
